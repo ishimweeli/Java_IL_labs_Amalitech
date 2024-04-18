@@ -1,0 +1,24 @@
+{
+        "date": "2023-04-12",
+        "author": "John Doe",
+        "questions": [
+        {
+        "text": "What is the capital of France?",
+        "type": "MULTIPLE_CHOICE",
+        "correctAnswer": "A",
+        "possibleAnswers": "A. Paris, B. London, C. Berlin, D. Rome"
+        },
+        {
+        "text": "Is the Earth flat?",
+        "type": "BOOLEAN",
+        "correctAnswer": "B",
+        "possibleAnswers": "A. True, B. False"
+        },
+        {
+        "text": "Explain the concept of object-oriented programming.",
+        "type": "DESCRIPTION",
+        "correctAnswer": "Object-oriented programming is a programming paradigm that is based on the concept of objects, which can contain data (properties) and code (methods). The main principles of OOP are encapsulation, inheritance, and polymorphism.",
+        "possibleAnswers": null
+        }
+        ]
+        }
