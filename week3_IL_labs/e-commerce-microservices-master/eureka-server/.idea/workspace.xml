@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a9038faa-1c22-4bc0-958f-3534c7454e0c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../week4_IL_labs/userService/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4_IL_labs/userService/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4_IL_labs/userService/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4_IL_labs/userService/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4_IL_labs/userService/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4_IL_labs/userService/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4_IL_labs/userService/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4_IL_labs/userService/.idea/sqlDataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4_IL_labs/userService/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4_IL_labs/userService/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4_IL_labs/userService/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4_IL_labs/userService/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4_IL_labs/userService/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4_IL_labs/userService/src/main/java/com/onlineExamination/userService/Example/json.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4_IL_labs/userService/src/main/java/com/onlineExamination/userService/UserServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4_IL_labs/userService/src/main/java/com/onlineExamination/userService/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4_IL_labs/userService/src/main/java/com/onlineExamination/userService/controller/ExamController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4_IL_labs/userService/src/main/java/com/onlineExamination/userService/controller/QuestionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4_IL_labs/userService/src/main/java/com/onlineExamination/userService/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4_IL_labs/userService/src/main/java/com/onlineExamination/userService/docs/SwaggerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4_IL_labs/userService/src/main/java/com/onlineExamination/userService/middleware/CheckAuth.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4_IL_labs/userService/src/main/java/com/onlineExamination/userService/model/ExamModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4_IL_labs/userService/src/main/java/com/onlineExamination/userService/model/ExamQuestionModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4_IL_labs/userService/src/main/java/com/onlineExamination/userService/model/Lesson.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4_IL_labs/userService/src/main/java/com/onlineExamination/userService/model/Level.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4_IL_labs/userService/src/main/java/com/onlineExamination/userService/model/QuestionModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4_IL_labs/userService/src/main/java/com/onlineExamination/userService/model/QuestionType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4_IL_labs/userService/src/main/java/com/onlineExamination/userService/model/UserModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4_IL_labs/userService/src/main/java/com/onlineExamination/userService/model/UserRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4_IL_labs/userService/src/main/java/com/onlineExamination/userService/repository/ExamRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4_IL_labs/userService/src/main/java/com/onlineExamination/userService/repository/QuestionRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4_IL_labs/userService/src/main/java/com/onlineExamination/userService/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4_IL_labs/userService/src/main/java/com/onlineExamination/userService/service/ExamService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4_IL_labs/userService/src/main/java/com/onlineExamination/userService/service/QuestionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4_IL_labs/userService/src/main/java/com/onlineExamination/userService/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4_IL_labs/userService/src/main/java/com/onlineExamination/userService/service/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4_IL_labs/userService/src/main/java/com/onlineExamination/userService/util/JwtUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4_IL_labs/userService/src/main/java/com/onlineExamination/userService/util/PasswordUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4_IL_labs/userService/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4_IL_labs/userService/src/test/java/com/onlineExamination/userService/UserServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4_IL_labs/userService/src/test/java/com/onlineExamination/userService/service/ExamServiceTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2fJOiSUzEDfC2X3cVCmNxvV3GgN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.EurekaServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/EliabIshimwe/Documents/GitHub/intermediateJavaCoreLabs/week3_IL_labs/e-commerce-microservices-master/product-catalog-service&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;spring.boot&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
+    <configuration name="EurekaServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.eliab.eurekaserver.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.eliab.eurekaserver.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication (1)" />
+    </list>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBootHealthEndpointTabSettings">
+    <option name="checkHealth" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a9038faa-1c22-4bc0-958f-3534c7454e0c" name="Changes" comment="" />
+      <created>1713515840902</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713515840902</updated>
+      <workItem from="1713515841926" duration="272000" />
+      <workItem from="1713601279462" duration="597000" />
+      <workItem from="1713637370823" duration="2414000" />
+      <workItem from="1713690074040" duration="6789000" />
+      <workItem from="1713851822792" duration="1878000" />
+      <workItem from="1713935323443" duration="1050000" />
+      <workItem from="1713945363570" duration="11075000" />
+      <workItem from="1714024461197" duration="599000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
