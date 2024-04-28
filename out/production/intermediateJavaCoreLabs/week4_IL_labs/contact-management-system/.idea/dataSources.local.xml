@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal" created-in="IU-233.14475.28">
+    <data-source name="default@localhost" uuid="92737541-c22d-4a6f-b342-7c8b7c6e2116">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="H2" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>eliab</user-name>
+      <schema-mapping />
+    </data-source>
+    <data-source name="test" uuid="c746919a-2e91-4f51-8ba2-f4bb3ee14808">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="H2" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>eliab</user-name>
+      <schema-mapping />
+    </data-source>
+    <data-source name="contactDb" uuid="19cb9431-74b8-46c3-9a34-bea94a19119d">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="H2" />
+      <user-name>eliab</user-name>
+      <schema-mapping />
+    </data-source>
+  </component>
+</project>
