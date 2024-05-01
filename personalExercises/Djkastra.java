@@ -1,4 +1,4 @@
-package com.personalExercises;
+package personalExercises;
 
 import java.util.*;
 

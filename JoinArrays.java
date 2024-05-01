@@ -1,4 +1,4 @@
-//package com.personalExercises;
+//package personalExercises;
 //
 //public class JoinArrays {
 //    public static void main(String[] args) {

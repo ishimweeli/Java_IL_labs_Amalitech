@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4e598aa2-3f12-4955-a6a4-e4c8300a588a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../JoinArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JoinArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalExercises/Djkastra.java" beforeDir="false" afterPath="$PROJECT_DIR$/../personalExercises/Djkastra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-hello-world-spring-boot/src/main/java/com/dockerforjavadevelopers/hello/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-hello-world-spring-boot/src/main/java/com/dockerforjavadevelopers/hello/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-hello-world-spring-boot/src/main/java/com/dockerforjavadevelopers/hello/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-hello-world-spring-boot/src/main/java/com/dockerforjavadevelopers/hello/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-tomcat-maven/src/main/java/com/example/serverlet/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-tomcat-maven/src/main/java/com/example/serverlet/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week2_IL_labs/springMvcWelcomeApp/src/main/java/springmvc/welcomeapp/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../week2_IL_labs/springMvcWelcomeApp/src/main/java/springmvc/welcomeapp/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week3_IL_labs/e-commerce-microservices/order-service/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week3_IL_labs/e-commerce-microservices/product-catalog-service/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week3_IL_labs/e-commerce-microservices/product-recommendation-service/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week3_IL_labs/e-commerce-microservices/user-service/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2foTLhLPuJ19njmL8HXFM8Wp2w8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/EliabIshimwe/Documents/GitHub/intermediateJavaCoreLabs/personalExercises",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e598aa2-3f12-4955-a6a4-e4c8300a588a" name="Changes" comment="" />
+      <created>1714466377658</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714466377658</updated>
+      <workItem from="1714466378784" duration="177000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
