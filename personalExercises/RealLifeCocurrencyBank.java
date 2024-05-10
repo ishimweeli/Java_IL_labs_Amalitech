@@ -22,7 +22,7 @@ public class RealLifeCocurrencyBank {
             if (i % MAX_CONCURRENT_WITHDRAWALS == 0) {
                 // Pause execution for 5 seconds after every batch of 5 clients
                 try {
-                    TimeUnit.SECONDS.sleep(10);
+                    TimeUnit.SECONDS.sleep(5);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
