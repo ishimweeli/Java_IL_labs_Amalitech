@@ -107,7 +107,6 @@ class TemplateModel {
 
 	private Streamable<Todo> todos(Optional<String> filter) {
 
-		// Needed due to https://bugs.eclipse.org/bugs/show_bug.cgi?id=576093
 		var defaulted = filter.orElse("");
 
 		return switch (defaulted) {
