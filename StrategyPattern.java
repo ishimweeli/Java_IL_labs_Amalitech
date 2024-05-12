@@ -1,5 +1,3 @@
-package personalExercises;
-
 public class StrategyPattern {
 
     interface PaymentStrategy{

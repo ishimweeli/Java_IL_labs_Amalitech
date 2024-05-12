@@ -1,4 +1,4 @@
-package com.pelinhangisi.springboottodoapp;
+package com.amalitech.springboottodoapp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

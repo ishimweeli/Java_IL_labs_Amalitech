@@ -1,19 +1,20 @@
-package com.pelinhangisi.springboottodoapp.models;
+package com.amalitech.springboottodoapp.models;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import java.util.Date;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import lombok.Data;
 
 @Entity
+@Data
 public class TaskModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String taskName;
     private String description;
-    private Date dueDate;
+    private String dueDate;
 
     // Constructors, getters, and setters
 }

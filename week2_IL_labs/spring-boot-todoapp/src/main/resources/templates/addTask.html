@@ -1,105 +1,84 @@
 <!DOCTYPE html>
-<!--<html lang="en" xmlns:th="http://www.thymeleaf.org">-->
-<html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:th="http://www.thymeleaf.org"
-      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
-      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" lang="">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>To-Do List</title>
-<!--    <link rel="stylesheet" href="/css/styles.css">-->
 </head>
 <body>
 <h1>To-Do List</h1>
+
+<!-- Form to add new task -->
 <form id="addTaskForm">
-    <label for="taskName"></label><input type="text" id="taskName" placeholder="Task Name" required>
-    <label for="description"></label><input type="text" id="description" placeholder="Description">
-    <label for="dueDate"></label><input type="date" id="dueDate">
+    <input type="text" id="taskName" placeholder="Task Name" required>
+    <input type="text" id="description" placeholder="Description">
+    <input type="date" id="dueDate">
     <button type="button" onclick="addTask()">Add Task</button>
 </form>
-<ul id="taskList">
-    <!-- Tasks will be dynamically added here -->
-</ul>
-<script>
-    function addTask() {
-        var taskName = document.getElementById('taskName').value;
-        var description = document.getElementById('description').value;
-        var dueDate = document.getElementById('dueDate').value;
 
-        var formData = {
-            taskName: taskName,
-            description: description,
-            dueDate: dueDate
+<!-- List to display existing tasks -->
+<ul id="taskList"></ul>
+
+<script>
+    // Function to fetch and display existing tasks
+    function displayTasks() {
+        fetch("/tasks")
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error("Failed to fetch tasks");
+                }
+                return response.json();
+            })
+            .then(tasks => {
+                // Clear the existing list
+                document.getElementById("taskList").innerHTML = "";
+                // Loop through each task and append it to the list
+                tasks.forEach(task => {
+                    var listItem = document.createElement("li");
+                    listItem.innerHTML = `
+                            <span>${task.taskName}</span>
+                            <span>${task.description}</span>
+                            <span>${task.dueDate}</span>
+                            <a href="/deleteTask/${task.id}">Delete</a>
+                        `;
+                    document.getElementById("taskList").appendChild(listItem);
+                });
+            })
+            .catch(error => {
+                console.error("Error fetching tasks:", error);
+            });
+    }
+
+    // Function to add a new task
+    function addTask() {
+        var taskData = {
+            taskName: document.getElementById("taskName").value,
+            description: document.getElementById("description").value,
+            dueDate: document.getElementById("dueDate").value
         };
 
-        fetch('/addTask', {
-            method: 'POST',
+        // Send data as JSON using Fetch API
+        fetch("/addTask", {
+            method: "POST",
             headers: {
-                'Content-Type': 'application/json'
+                "Content-Type": "application/json"
             },
-            body: JSON.stringify(formData)
+            body: JSON.stringify(taskData)
         })
             .then(response => {
-                if (response.ok) {
-                    // Clear the form fields
-                    document.getElementById('taskName').value = '';
-                    document.getElementById('description').value = '';
-                    document.getElementById('dueDate').value = '';
-
-                    // Refresh the task list
-                    fetchTasks();
-                } else {
-                    console.error('Error:', response.statusText);
+                if (!response.ok) {
+                    throw new Error("Failed to add task");
                 }
+                // Refresh the task list after adding a task
+                displayTasks();
+                console.log("Task added successfully");
             })
-            .catch(error => console.error('Error:', error));
-    }
-
-    function deleteTask(id) {
-        fetch('/deleteTask/' + id, {
-            method: 'DELETE'
-        })
-            .then(response => {
-                if (response.ok) {
-                    // Refresh the task list
-                    fetchTasks();
-                } else {
-                    console.error('Error:', response.statusText);
-                }
-            })
-            .catch(error => console.error('Error:', error));
-    }
-
-    function displayTasks(tasks) {
-        var taskList = document.getElementById('taskList');
-        taskList.innerHTML = ''; // Clear previous tasks
-
-        if (tasks.length === 0) {
-            taskList.innerHTML = '<li>No tasks found.</li>';
-        } else {
-            tasks.forEach(task => {
-                var li = document.createElement('li');
-                li.innerHTML = '<span>' + task.taskName + '</span>' +
-                    '<span>' + task.description + '</span>' +
-                    '<span>' + task.dueDate + '</span>' +
-                    '<button onclick="deleteTask(' + task.id + ')">Delete</button>';
-                taskList.appendChild(li);
+            .catch(error => {
+                console.error("Error adding task:", error);
             });
-        }
     }
 
-    function fetchTasks() {
-        fetch('/tasks')
-            .then(response => response.json())
-            .then(data => {
-                displayTasks(data);
-            })
-            .catch(error => console.error('Error:', error));
-    }
-
-    // Fetch existing tasks when the page loads
-    fetchTasks();
+    // Call displayTasks function to load existing tasks when the page loads
+    displayTasks();
 </script>
 </body>
 </html>

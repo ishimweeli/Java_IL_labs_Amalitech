@@ -1,4 +1,4 @@
-package personalExercises;
+package week2_IL_labs;
 
 public class Adapter {
 
