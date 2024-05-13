@@ -9,32 +9,28 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-
 @Controller
 public class TaskController {
     @Autowired
     private TaskService taskService;
+
     @GetMapping("/")
-    public String index() {
-        return "addTask";
-    }
-    @GetMapping("/tasks")
-    public String getAllTasks(Model model) {
-        model.addAttribute("tasks", taskService.getAllTasks());
-return "addTask";
+    public String showTaskForm(Model model) {
+        TaskModel task = new TaskModel(); // Create a new TaskModel object
+        model.addAttribute("task", task); // Add the task object to the model
+        model.addAttribute("tasks", taskService.getAllTasks()); // Add the list of tasks to the model
+        return "index";
     }
 
     @PostMapping("/addTask")
-    public String addTask(@RequestBody TaskModel task) {
-        // Process the task (e.g., save to database)
+    public String addTask(@ModelAttribute TaskModel task) {
         taskService.addTask(task);
-
-        // Redirect to the appropriate page after adding the task
-        return "redirect:/addTask"; // Redirect to a success page or task list
+        return "redirect:/";
     }
-    @DeleteMapping("/deleteTask/{id}")
+
+    @GetMapping("/deleteTask/{id}")
     public String deleteTask(@PathVariable Long id) {
         taskService.deleteTask(id);
-        return "redirect:/tasks"; // Redirect to the tasks page after deleting a task
+        return "redirect:/";
     }
 }
