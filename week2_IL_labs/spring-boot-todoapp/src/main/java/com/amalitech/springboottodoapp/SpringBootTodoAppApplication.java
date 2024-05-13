@@ -13,11 +13,4 @@ public class SpringBootTodoAppApplication {
         SpringApplication.run(SpringBootTodoAppApplication.class, args);
     }
 
-//    @Bean
-//    public ViewResolver viewResolver() {
-//        InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
-//        viewResolver.setPrefix("classpath:/templates/");
-//        viewResolver.setSuffix(".html");
-//        return viewResolver;
-//    }
 }
